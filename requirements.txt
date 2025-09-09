@@ -1,0 +1,6 @@
+# requirements.txt
+streamlit
+tensorflow
+numpy
+opencv_python
+Pillow
