@@ -9,7 +9,7 @@ import cv2
 
 # 설정 및 모델 로드
 
-MODEL_PATH = "checkpoints/best_densenet121.keras"
+MODEL_PATH = "best_densenet121.keras"
 LAST_CONV_LAYER_NAME = "relu"
 
 st.set_page_config(page_title="KNEE X-ray Classifier", layout="wide")
@@ -149,3 +149,4 @@ if model is not None:
                 """)
 else:
     st.warning("모델을 불러올 수 없습니다. 관리자에게 문의하세요.")
+
